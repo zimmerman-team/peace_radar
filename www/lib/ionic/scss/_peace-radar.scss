@@ -1,0 +1,77 @@
+
+$pr_blue 	:#29ABE2;
+$pr_red 	:#F13424;
+.peace_radar_button {
+	opacity: 0.8;
+
+}
+
+.peace_radar_button:hover{
+	opacity: 1.0;
+
+}
+
+.peace-radar-button-small{
+	opacity: 0.8;
+	width:60%;
+	background-color:$pr_blue;
+	height:15%;
+}
+
+.peace-radar-button-small:hover{
+	opacity: 1.0;
+
+}
+
+
+.menu-background {
+	background: url('../img/streets_blurred.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.page-background {
+	background: url('../img/streets.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.page-background-dark {
+	background-color: #000000;
+	opacity: 0.75;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+.menu-button {
+	text-align: right;
+    width: 100%;
+}
+
+.menu-items {
+	text-align: center;
+}
+
+.peace_radar_spacer {
+	height: 5%;
+}
+
+.peace_radar_header {
+	background-color:$pr_blue;
+	width:100%;
+	height:10%;
+	vertical-align: middle;
+	
+}
+
+.peace_radar_header span {
+	display: inline-block;
+  	vertical-align: middle;
+  	font-size: 200%;
+}
+
+.peace-radar-alt-color{
+	background-color:$pr_red;
+}
