@@ -7675,60 +7675,150 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.peace_radar_button {
-  opacity: 0.8; }
+.pane {
+  background: none; }
 
-.peace_radar_button:hover {
-  opacity: 1.0; }
-
-.peace-radar-button-small {
-  opacity: 0.8;
-  width: 60%;
-  background-color: #29ABE2;
-  height: 15%; }
-
-.peace-radar-button-small:hover {
-  opacity: 1.0; }
-
-.menu-background {
-  background: url('../img/streets_blurred.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; }
-
-.page-background {
+.view-container {
   background: url('../img/streets.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; }
+  background-size: cover; }
 
-.page-background-dark {
-  background-color: #000000;
-  opacity: 0.75;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-  filter: alpha(opacity=75);
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; }
+.overlay {
+  background: rgba(0, 0, 0, 0.7); }
 
-.menu-button {
-  text-align: right;
-  width: 100%; }
+.bar {
+  background: rgba(41, 171, 226, 0.9);
+  border: 0;
+  color: #fff; }
+  .bar .button-nav {
+    color: #fff;
+    font-size: 30px;
+    max-height: auto;
+    line-height: 0; }
+  .bar .button-clear {
+    color: #fff; }
 
 .menu-items {
-  text-align: center; }
+  margin: 0 auto;
+  position: relative; }
+  .menu-items li {
+    display: block;
+    background: rgba(41, 171, 226, 0.9);
+    font-size: 22px;
+    color: #fff;
+    margin: 8px;
+    padding: 8px 8px;
+    overflow: hidden; }
+    .menu-items li img {
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+      display: block;
+      float: left; }
+    .menu-items li span {
+      display: block;
+      float: left;
+      height: 60px;
+      line-height: 60px; }
 
-.peace_radar_spacer {
-  height: 5%; }
+.menu-button {
+  text-align: center;
+  position: relative;
+  margin: 10px 0; }
+  .menu-button button {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #fff !important; }
+    .menu-button button:before {
+      font-size: 40px !important; }
+  .menu-button img {
+    margin: 10px 0;
+    height: 80px;
+    width: auto; }
 
-.peace_radar_header {
-  background-color: #29ABE2;
-  width: 100%;
-  height: 10%;
-  vertical-align: middle; }
-
-.peace_radar_header span {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 200%; }
+.peace-radar-button {
+  text-align: center;
+  width: 50%;
+  background: rgba(41, 171, 226, 0.9);
+  margin: 20px auto 10px auto;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 0; }
 
 .peace-radar-alt-color {
-  background-color: #29ABE2; }
+  margin-top: 0;
+  background-color: rgba(241, 52, 36, 0.9); }
+
+.peace_radar_header {
+  background-color: rgba(41, 171, 226, 0.9);
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  padding: 30px 0; }
+
+.text-wrap {
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px; }
+  .text-wrap p {
+    font-size: 14px; }
+  .text-wrap h4 {
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0 3px; }
+    .text-wrap h4:first-of-type {
+      margin-top: 0; }
+
+.controller {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .controller .top {
+    width: 120px;
+    height: 60px;
+    margin: 0 auto;
+    background: rgba(41, 171, 226, 0.8);
+    border-radius: 60px 60px 0 0; }
+  .controller .bottom {
+    background: rgba(41, 171, 226, 0.8);
+    padding: 20px 0;
+    position: relative; }
+  .controller img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px; }
+  .controller .range {
+    margin-top: 20px; }
+
+.range {
+  background: none;
+  border: 0; }
+
+.list .item {
+  background: none;
+  color: #fff;
+  border-top: 0;
+  border-bottom: 1px solid #fff;
+  font-size: 18px; }
+  .list .item.last {
+    border-bottom: 0; }
+.list.selectlist .item {
+  background: rgba(41, 171, 226, 0.9);
+  border: 0;
+  margin: 8px; }
+.list .input-label {
+  color: #fff; }
+.list select {
+  background: none;
+  color: #fff;
+  border-radius: 0;
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: 0; }
+.list .item-select:after {
+  color: #fff; }
