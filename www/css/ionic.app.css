@@ -7771,7 +7771,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .overlay .button {
   display: block;
-  width: 45%;
+  width: 80%;
   margin: 20px auto 10px auto; }
   .overlay .button.button-calm {
     background: rgba(41, 171, 226, 0.9); }
@@ -7780,7 +7780,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   .overlay .button.mid {
     margin-top: 0; }
   .overlay .button.xwide {
-    width: 60%; }
+    width: 80%; }
 
 .peace_radar_header {
   background-color: rgba(41, 171, 226, 0.9);

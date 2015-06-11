@@ -157,7 +157,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .overlay {
 	.button {
 		display: block;
-		width:45%;
+		width:80%;
 		margin:20px auto 10px auto;
 		&.button-calm {
 			background:rgba($pr_blue,.9);
@@ -170,7 +170,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 			margin-top:0;
 		}
 		&.xwide {
-			width: 60%;
+			width: 80%;
 		}
 	}
 }
