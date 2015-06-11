@@ -1,7 +1,7 @@
 <ion-view view-title="Share your data">
   <ion-content class="overlay">
     <div class="menu-button">
-      <img src="img/share_your_data_logo.png"></img>
+      <img src="img/icon_share.png"></img>
     </div>
     <div class="list">
       <ion-toggle toggle-class="toggle-calm" class="first">Location</ion-toggle>
@@ -10,12 +10,12 @@
       <ion-toggle toggle-class="toggle-calm" class="last">Twitter activity</ion-toggle>
     </div>
 
-    <div class="peace-radar-button" ui-sref="personal_settings">
-      <span>Personal settings</span>
-    </div>
-    <div class="peace-radar-button peace-radar-alt-color" ui-sref="kill_data">
-      <span>Kill data</span>
-    </div>
+    <a class="button button-calm" href="#/app/personal_settings">
+      Personal settings
+    </a>
+    <a class="button button-assertive mid" href="#/app/kill_data">
+      Kill data
+    </a>
 
   </ion-content>
 </ion-view>

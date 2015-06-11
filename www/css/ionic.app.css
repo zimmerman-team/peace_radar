@@ -15,6 +15,11 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans/OpenSans-Regular.eot') format('embedded-opentype'), url('../fonts/OpenSans/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype'), url('../fonts/OpenSans/OpenSans-Regular.svg#OpenSansRegular') format('svg'); }
+
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -7675,16 +7680,23 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.pane {
-  background: none; }
+body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans'; }
 
-.view-container {
-  background: url('../img/streets.jpg');
+.pane {
+  background: url('../img/background.jpg');
   background-repeat: no-repeat;
   background-size: cover; }
 
 .overlay {
   background: rgba(0, 0, 0, 0.7); }
+
+.fullpage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
 
 .bar {
   background: rgba(41, 171, 226, 0.9);
@@ -7697,6 +7709,25 @@ a.button {
     line-height: 0; }
   .bar .button-clear {
     color: #fff; }
+  .bar .title {
+    color: #fff; }
+
+.menu .bar {
+  background: rgba(41, 171, 226, 0.9); }
+  .menu .bar .title {
+    color: #fff; }
+.menu .scroll-content {
+  background: #0d0d0d;
+  border-right: 3px solid #262626; }
+.menu .list .item {
+  border-bottom: 1px solid #262626;
+  margin: 0px -1px 0 -1px; }
+.menu .list .item-content {
+  background: #0d0d0d; }
+.menu img {
+  width: 25px;
+  height: 25px;
+  margin: -10px 10px -5px 0; }
 
 .menu-items {
   margin: 0 auto;
@@ -7734,22 +7765,22 @@ a.button {
     .menu-button button:before {
       font-size: 40px !important; }
   .menu-button img {
-    margin: 10px 0;
-    height: 80px;
+    margin: 20px 0 10px;
+    height: 50px;
     width: auto; }
 
-.peace-radar-button {
-  text-align: center;
-  width: 50%;
-  background: rgba(41, 171, 226, 0.9);
-  margin: 20px auto 10px auto;
-  color: #fff;
-  font-size: 18px;
-  padding: 20px 0; }
-
-.peace-radar-alt-color {
-  margin-top: 0;
-  background-color: rgba(241, 52, 36, 0.9); }
+.overlay .button {
+  display: block;
+  width: 45%;
+  margin: 20px auto 10px auto; }
+  .overlay .button.button-calm {
+    background: rgba(41, 171, 226, 0.9); }
+  .overlay .button.button-assertive {
+    background-color: rgba(241, 52, 36, 0.9); }
+  .overlay .button.mid {
+    margin-top: 0; }
+  .overlay .button.xwide {
+    width: 60%; }
 
 .peace_radar_header {
   background-color: rgba(41, 171, 226, 0.9);
@@ -7804,7 +7835,7 @@ a.button {
   color: #fff;
   border-top: 0;
   border-bottom: 1px solid #fff;
-  font-size: 18px; }
+  font-size: 16px; }
   .list .item.last {
     border-bottom: 0; }
 .list.selectlist .item {
@@ -7817,7 +7848,7 @@ a.button {
   background: none;
   color: #fff;
   border-radius: 0;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 0;
   padding-bottom: 0; }
 .list .item-select:after {

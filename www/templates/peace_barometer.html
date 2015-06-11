@@ -1,10 +1,10 @@
 <ion-view view-title="Peace barometer">
 	<ion-content class="overlay" scroll="false">
 		<div class="menu-button">
-			<img src="img/share_your_data_logo.png"></img>
+			<img src="img/icon_baro.png"></img>
 		</div>
-		<div class='text-wrap'>
-			<h4>How do you feel?</h4>
+		<div class="text-wrap">
+			<h4>How do you feel today?</h4>
 		</div>
 		<div class="controller">
 			<div class="top"></div>
@@ -13,9 +13,9 @@
 				<div class="item range range-balanced">
 					<input type="range" name="mood" min=1 max=11 value="6" ng-model="data.mood">
 				</div>
-				<div class="peace-radar-button" ui-sref="">
-			  		<span>Submit mood</span>
-			  	</div>
+				<a class="button button-calm"  ng-click="goBack()">
+			  		Submit mood
+			  	</a>
 			</div>
 		</div>
 	</ion-content>

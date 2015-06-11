@@ -1,6 +1,6 @@
 {
   "name": "peace_radar",
-  "app_id": "",
+  "app_id": "317b3409",
   "gulpStartupTasks": [
     "sass",
     "watch"

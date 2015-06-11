@@ -1,27 +1,2 @@
 /* Empty. Add your own CSS if you like */
 
-.peace_radar_button {
-	opacity: 0.8;
-
-}
-
-.peace_radar_button:hover{
-	opacity: 1.0;
-
-}
-
-
-.menu-background {
-	background: url('../img/2newnewblurred-2-5-stad-(0-00-09-00)_2.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-
-.menu-button {
-	text-align: right;
-    width: 100%;
-}
-
-.menu-items {
-	text-align: center;
-}
