@@ -274,3 +274,25 @@ body, p, h1, h2, h3, h4, h5, h6 {
 		}
 	}
 }
+
+//popup
+.popup {
+	.popup-head {
+		background:$pr_blue;
+		border:0;
+		h3 {
+			color: #fff;
+		}
+	}
+	.popup-body {
+		background:rgba(0,0,0,.9);
+		color:#fff;
+		text-align: center;
+	}
+	.popup-buttons {
+		background:rgba(0,0,0,.9);
+		.button-positive {
+			background:$pr_blue;
+		}
+	}
+}

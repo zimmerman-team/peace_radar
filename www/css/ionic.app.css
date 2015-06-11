@@ -7853,3 +7853,17 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0; }
 .list .item-select:after {
   color: #fff; }
+
+.popup .popup-head {
+  background: #29ABE2;
+  border: 0; }
+  .popup .popup-head h3 {
+    color: #fff; }
+.popup .popup-body {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-align: center; }
+.popup .popup-buttons {
+  background: rgba(0, 0, 0, 0.9); }
+  .popup .popup-buttons .button-positive {
+    background: #29ABE2; }

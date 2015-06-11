@@ -71,6 +71,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.partners', {
+    url: "/partners",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/partners.html"
+      }
+    }
+  })
+
   .state('app.peace_barometer', {
     url: "/peace_barometer",
     views: {
@@ -84,14 +93,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 });
 
 // Add the 'ionic.service.core' module to your main angular module:
-angular.module('test', ['ionic.service.core'])
-// Identify App
-.config(['$ionicAppProvider', function($ionicAppProvider) {
-  // Identify app
-  $ionicAppProvider.identify({
-    // The App ID for the server
-    app_id: '8e26ce6c',
-    // The API key all services will use for this app
-    api_key: '224c97f41cd5cc9d8bcdce0b55d75aa4a5e5ce671fabccf9'
-  });
-}]);
+// angular.module('test', ['ionic.service.core'])
+// // Identify App
+// .config(['$ionicAppProvider', function($ionicAppProvider) {
+//   // Identify app
+//   $ionicAppProvider.identify({
+//     // The App ID for the server
+//     app_id: '8e26ce6c',
+//     // The API key all services will use for this app
+//     api_key: '224c97f41cd5cc9d8bcdce0b55d75aa4a5e5ce671fabccf9'
+//   });
+// }]);
