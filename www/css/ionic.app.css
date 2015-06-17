@@ -7836,12 +7836,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
   border-top: 0;
   border-bottom: 1px solid #fff;
   font-size: 16px; }
-  .list .item.last {
+  .list .item:last-of-type {
     border-bottom: 0; }
-.list.selectlist .item {
-  background: rgba(41, 171, 226, 0.9);
-  border: 0;
-  margin: 8px; }
 .list .input-label {
   color: #fff; }
 .list select {

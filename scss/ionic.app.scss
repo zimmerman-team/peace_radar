@@ -246,15 +246,15 @@ body, p, h1, h2, h3, h4, h5, h6 {
 		border-top: 0;
 		border-bottom: 1px solid #fff;
 		font-size: 16px;
-		&.last {
+		&:last-of-type {
 			border-bottom:0;
 		}
 	}
 	&.selectlist {
 		.item {
-			background:rgba($pr_blue,.9);
-			border:0;
-			margin:8px;
+			//background:rgba(#fff,.7);
+			//border:0;
+			//margin:8px;
 		}
 	}
 	.input-label {

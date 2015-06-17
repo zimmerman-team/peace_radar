@@ -4,10 +4,10 @@
       <img src="img/icon_share.png"></img>
     </div>
     <div class="list">
-      <ion-toggle toggle-class="toggle-calm" class="first">Location</ion-toggle>
+      <ion-toggle toggle-class="toggle-calm" ng-click="onToggleEnabled()" ng-model="bgGeo.enabled">Location</ion-toggle>
       <ion-toggle toggle-class="toggle-calm">Call behaviour</ion-toggle>
-      <ion-toggle toggle-class="toggle-calm">Facebook activity</ion-toggle>
-      <ion-toggle toggle-class="toggle-calm" class="last">Twitter activity</ion-toggle>
+      <!-- <ion-toggle toggle-class="toggle-calm">Facebook activity</ion-toggle>
+      <ion-toggle toggle-class="toggle-calm" class="last">Twitter activity</ion-toggle> -->
     </div>
 
     <a class="button button-calm" href="#/app/personal_settings">
